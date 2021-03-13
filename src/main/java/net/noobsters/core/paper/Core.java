@@ -14,6 +14,7 @@ public class Core extends JavaPlugin implements Listener{
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(this, this);
+        Bukkit.getPluginManager().registerEvents(new ChunkMiner(this), this);
 
     }
 
