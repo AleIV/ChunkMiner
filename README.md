@@ -1,2 +1,2 @@
 # Chunk Miner
-Plugin to mine an entire chunk with an obsidian pickaxe.
+Plugin to mine an entire chunk with a pickaxe.
