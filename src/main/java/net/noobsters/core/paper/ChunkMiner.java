@@ -3,7 +3,6 @@ package net.noobsters.core.paper;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
-import org.bukkit.Sound;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -11,7 +10,6 @@ import org.bukkit.event.inventory.PrepareSmithingEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.RecipeChoice;
 import org.bukkit.inventory.SmithingRecipe;
-import org.bukkit.inventory.meta.Damageable;
 
 import lombok.NonNull;
 import net.md_5.bungee.api.ChatColor;
@@ -56,6 +54,7 @@ public class ChunkMiner implements Listener {
 
         if(item.getItemMeta().hasCustomModelData() && item.getItemMeta().getCustomModelData() == 102){
 
+            /*
             var meta = item.getItemMeta();
             var damageable = (Damageable) meta;
             
@@ -75,6 +74,7 @@ public class ChunkMiner implements Listener {
 
             damageable.setDamage(damage);
             item.setItemMeta(meta);
+            */
 
             var chunk = e.getBlock().getChunk();
             var blockY = e.getBlock().getY();

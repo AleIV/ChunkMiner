@@ -1,4 +1,4 @@
-name: NoobstersCore
+name: ChunkMiner
 version: ${version}
 main: net.noobsters.core.paper.Core
 api-version: 1.16
